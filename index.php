@@ -6,9 +6,9 @@
     $make = "Ford";
     $model = "Taurus";
     $year = 2004;
-
+    $my_car = new Car();
 // Echo the following strings as a single concatenated sentence
-    echo "I " . "love " . "PHP " . "!"
+    echo "I " . "hate " . "PHP " . "!";
 
 // Create an array called myArray with 4 pieces of data
     $my_array = [1,2,3,4];
@@ -33,10 +33,8 @@
         $this->year = $year; 
     };
 
-// Create a variable called myCar that is an object of type
-
-
-
+// echo the phrase I have a {{ year }} {{ make }} {{ model }}".
+    echo "I have a " . $my_car->year. " " . $my_car->make . " " . $my_car->model;
 
 
 ?>
