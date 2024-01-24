@@ -2,7 +2,6 @@
 <?php
 
 // One variable for each data type
-    $myCar = "car";
     $make = "Ford";
     $model = "Taurus";
     $year = 2004;
@@ -34,7 +33,7 @@
     };
 
 // echo the phrase I have a {{ year }} {{ make }} {{ model }}".
-    echo "I have a " . $my_car->year. " " . $my_car->make . " " . $my_car->model;
+    echo "I have a " , $my_car->year, " " . $my_car->make . " " . $my_car->model;
 
 
 ?>
