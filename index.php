@@ -43,7 +43,7 @@
     if($integer >= 10) {
         echo "This statement is true" . "<br />";
      } else {
-         echo "This statement is false";
+         echo "This statement is false" . "<br />";
      }
 
 //Using $myArray from Variables step 3, create two different loops 
@@ -51,7 +51,7 @@
         echo $i . "<br />"; 
      }
 
-     foreach ($myArray as $item) {
+     foreach ($my_array as $item) {
         echo "$item" . "<br />";
      } 
 ?>
